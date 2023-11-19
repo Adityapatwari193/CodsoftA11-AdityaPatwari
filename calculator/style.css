@@ -1,13 +1,14 @@
+/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-body{
+body {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -16,22 +17,21 @@ body{
     background: linear-gradient(45deg, #034, #3a4);
 }
 
-.calculator{
+.calculator {
     border: 1px solid #717377;
     padding: 20px;
     border-radius: 16px;
-    background: transparent;
+    background: #1a1a1a; /* Change background color */
     box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
-
 }
 
-input{
+input {
     width: 320px;
     border: none;
     padding: 24px;
     margin: 10px;
-    background: transparent;
-    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
+    background: #1a1a1a; /* Change background color */
+    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1);
     font-size: 40px;
     text-align: right;
     cursor: pointer;
@@ -40,27 +40,27 @@ input{
     border-color: black;
 }
 
-input::placeholder{
+input::placeholder {
     color: #ffffff;
 }
 
-button{
+button {
     border: none;
     width: 60px;
     height: 60px;
     margin: 10px;
     border-radius: 50%;
-    background: transparent;
+    background: #1a1a1a; /* Change background color */
     color: #ffffff;
     font-size: 20px;
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
     cursor: pointer;
 }
 
-.equalBtn{
-    background-color: black;
+.equalBtn {
+    background-color: #333; /* Change background color */
 }
 
-.operator{
+.operator {
     color: #6dee0a;
 }
